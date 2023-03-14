@@ -12,14 +12,26 @@
 #logo{
     width: 260px; 
     height: 200px;
-    background-color: rgb(7, 28, 46);
+    
     float: left;
+}
+#logo img{
+    width: 230px;
+    margin: 10px 10px 10px 10px;
 }
 #menu{
     width: 700px; 
     height: 200px;
-    background-color: rgb(8, 13, 17);
     float: right;
+    text-align: center;
+    word-spacing: 20px;
+    color: rgb(197, 17, 17);
+}
+#menu a{
+    text-decoration: none;
+}
+#menu a:hover{
+    color: aqua;
 }
 #banner{
     width: 960px;
@@ -42,17 +54,17 @@
 #container2{
     width: 960px;
     height: 200px;
-    background-color:rgb(124, 104, 48) ;
+     
     margin: auto;
 }
 #direita{
-    width: 400px;
+    width: 480px;
     height: 500px;
     background-color:rgb(114, 23, 76) ;
     float: right;
 }
 #esquerda{
-    width: 400px;
+    width: 480px;
     height: 500px;
     background-color:rgb(75, 11, 48) ;
     float: left;
